@@ -1,0 +1,165 @@
+
+/*header*/
+header {
+    background-color: black;
+}
+#header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+}
+#header #logo {
+    width: 55px;
+    height: 50px;
+    
+ }
+
+#header ul {
+    display: flex;
+}
+
+#header li {
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+}
+
+#header li a {
+    color: white;
+    display: block;
+    text-decoration: none;  
+}
+
+#header li a:hover{
+    text-decoration: underline;
+}
+
+header img:last-of-type {
+    width: 100%;
+}
+
+/*main*/
+main section {
+    display: flex; 
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+main section:nth-of-type(2n+1) {
+    flex-direction: row-reverse;
+    padding-right: 15%;
+    padding-left: 10%;
+    margin-left: 15%;
+    margin-right: 10%;
+
+}
+
+main section:nth-of-type(2n) {
+    padding-left: 15%;
+    padding-right: 10%;
+    margin-right: 15%;
+    margin-left: 10%;
+    text-align: end;
+}
+
+main section div{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+span {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.noir {
+    background-color: black;
+    color: white;
+}
+
+.beige {
+    background-color: rgb(223, 217, 135);
+}
+
+.violet {
+    background-color: blueviolet;
+}
+
+/*
+hr:first-of-type {
+    display: flex;
+    width: 30%;
+}
+
+hr:nth-of-type(2){
+    display: flex;
+    width: 30%;
+}*/
+#asteroide {
+    position: relative;
+}
+
+#asteroide p {
+    text-align: center;
+}
+
+#asteroide hr:first-of-type {
+    position: absolute;
+    width: 30%;
+    padding-right: 70%;
+}
+
+#asteroide hr:last-of-type {
+    position:absolute;
+    width: 30%;
+    padding-left: 70%;
+}
+
+/*footer*/
+
+footer {
+    background-color: black;
+    color: white;
+    max-width: 100%;
+}
+
+footer nav {
+    display: flex;
+    text-align: center;
+}
+
+footer nav div:first-of-type {
+    padding-left: 10%;
+}
+
+footer nav div:last-of-type {
+    padding-right: 10%;
+}
+
+
+footer h3:first-of-type {
+    padding-left: 15%;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding-bottom: 10px;
+}
+
+footer ul:last-of-type {
+    padding-right: 10%;
+}
+
+footer p {
+    text-align: center;
+}
